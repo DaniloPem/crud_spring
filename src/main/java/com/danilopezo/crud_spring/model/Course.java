@@ -3,7 +3,7 @@ package com.danilopezo.crud_spring.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
-@Data  //gera getters e setters
+@Data  //gera getters e setters e contrutor
 @Entity //especificamos essa classe como uma entidade que vai fazer o mapeamento com banco de dados
 public class Course {
     @Id //chave primária
